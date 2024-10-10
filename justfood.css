@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:#ffffff;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    
+}
+#navLink{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color:#486c89;
+}
+button{
+    background-color: #ffa500;
+    border-radius: 150px;
+    padding: 10px 25px;
+    font-size: 9px;
+    font-weight: 500;
+    font-family: sans-serif;
+    line-height: 14px;
+
+}
+.fawzzy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #ffeccc;
+    padding-top: 20px;
+}
+.fawzzy >img{
+    width: 30%;
+}
+.fawzzy > div{
+    width: 30%;
+}
+h2{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 27px;
+    font-style: normal;
+    line-height: 33px;
+    color: #4f4f4f;
+}
+p{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 26px;
+    color: #4f4f4f;
+}
+
+
+
+img{
+    background-image: none;
+}
+.body{
+    border: 1px solid none;
+    width: 20%;
+    display: inline-block;
+}
+.head{
+    border: 1px solid none;
+    width: 20%;
+    display: inline-block;
+}
+.leg{
+    border: 1px solid none;
+    width: 20%;
+    display: inline-block;
+}
+.man{
+    border: 1px solid none;
+    display: flex;
+    height: 250px;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-around;
+}
+.woman1{
+    border: 1px solid none;
+    display: flex;
+    height: 250px;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+h3{
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: #4f4f4f;
+}
+h4{
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    color: #4f4f4f;
+}
+.leg1{
+    border: 1px solid none;
+    display: inline-block;
+}
+
+.footerhead{
+    border: 1px solid none;
+    background-color: #a27d52;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding:5%
+}
+.footerhh{
+    margin-right: 10%;
+}
+.footerb{
+    display: flex;
+    gap: 40px;
+    height: 300px;
+    justify-content: space-around;
+    background-color: #f1e7e7;
+    padding: 40px;
+
+}
+.aa{
+    display: flex;
+    padding: 20px;
+}
+
+
+
+    
